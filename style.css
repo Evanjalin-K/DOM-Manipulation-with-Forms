@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tableData {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: solid 2px black;
+    margin-top: 30px;
+
+}
+
+.table th,
+.table td {
+    border: 3px solid #ddd;
+    padding: 8px;
+}
+
+.title, .des {
+    text-align: center;
+}
+
+.pDetails {
+    font-weight: bold;
+
+
+}
+
+.inp {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.submit {
+    margin-top: 10px;
+    margin-left:35% ;
+    width: 90px;
+    height: 5vh;
+    font-weight: bold;
+}
+
+.reset {
+    margin-left: 10px;
+    margin-left: 40px;
+    width: 90px;
+    height: 5vh;
+    font-weight: bold;
+
+}
+.radio, .check{
+    margin:15px;
+    
+}

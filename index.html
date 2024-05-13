@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-group">
+            <form id="form" action="#">
+                <h1 id="title" class="title">Personal Information Form</h1>
+                <p class="des" id="description">DOM manipulation with Forms</p>
+                <table>
+                    <tr>
+                        <td class="pDetails">First Name</td>
+                        <td><input id="first-name" class="inp" type="text" placeholder="First Name" required></td>
+                    </tr>
+                <tr>
+                    <td class="pDetails">Second Name</td>
+                    <td><input id="last-name" class="inp" type="text" placeholder="Second Name" required></td>
+                </tr>
+                <tr>
+                    <td class="pDetails">Email</td>
+                    <td><input id="email" class="inp" type="email" placeholder="Email" required></td>
+                </tr>
+                <tr>
+                    <td class="pDetails">Address</td>
+                    <td><textarea id="address" class="inp" placeholder="Address"  for="addrress" required></textarea></td>
+                </tr>
+                <tr>
+                    <td class="pDetails">Pincode</td>
+                    <td><input id="pincode" class="inp" type="text" placeholder="Pincode" required></td>
+                </tr>
+                <tr>
+                    <td class="pDetails">Gender</td>
+                    <td>
+                        <label><input class="radio" type="radio" name="gender" value="Female" required>Female</label>
+                        <label><input class="radio" type="radio" name="gender" value="Male" required>Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="pDetails">Food (Select 3)</td>
+                    <td>
+                        <label><input class="check" type="checkbox" name="food" value="Pizza">Pizza</label>
+                        <label><input class="check" type="checkbox" name="food" value="Burger">Burger</label>
+                        <label><input class="check" type="checkbox" name="food" value="French Fries">French Fries</label>
+                        <label><input class="check" type="checkbox" name="food" value="Biriyani">Biriyani</label>
+                        <label><input class="check" type="checkbox" name="food" value="Fried Chicken">Fried Chicken</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="pDetails">State</td>
+                    <td><input id="state" class="inp" type="text" placeholder="State" required></td>
+                </tr>
+                <tr>
+                    <td class="pDetails">Country</td>
+                    <td><input id="country" class="inp" type="text" placeholder="Country" required></td>
+                </tr>
+            </table>
+            <button class="submit btn btn-primary" id="submit" type="submit">Submit</button>
+            <button class="reset btn btn-secondary" type="reset">Reset</button>
+        </form>
+        </div>
+    </div>
+        <div class="table">
+            <table class="tableData" id="table">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Second Name</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Pincode</th>
+                        <th>Gender</th>
+                        <th>Choice of Food</th>
+                        <th>State</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        
+    </div>
+</div>
+    <script src="./script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
