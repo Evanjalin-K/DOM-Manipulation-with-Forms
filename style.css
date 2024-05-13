@@ -30,6 +30,7 @@ body {
 
 .pDetails {
     font-weight: bold;
+    padding-bottom: 20px;
 
 
 }
@@ -47,10 +48,10 @@ body {
     width: 90px;
     height: 5vh;
     font-weight: bold;
+    
 }
 
 .reset {
-    margin-left: 10px;
     margin-left: 40px;
     width: 90px;
     height: 5vh;
@@ -58,6 +59,7 @@ body {
 
 }
 .radio, .check{
-    margin:15px;
+margin: 15px;
+margin-bottom: 30px;
     
 }
